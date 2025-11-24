@@ -1,0 +1,13 @@
+[package]
+name = "graphbact"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.53", features = ["derive"] }
+nalgebra = "0.34.1"
+ndarray = "0.17.1"
+petgraph = "0.6.5"
+rand = "0.9.2"
+smartcore = { version = "0.4.6", features = ["datasets", "ndarray-bindings"] }
+tch = { version = "0.22.0", features = ["download-libtorch"] }
